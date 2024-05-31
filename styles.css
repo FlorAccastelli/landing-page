@@ -22,6 +22,22 @@ body {
     font-size: 18px;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 16px 24px;
+}
+
+header .hamburger-menu {
+    display: none;
+}
+
+/* header nav{
+    display: none;
+
+} */
+
 .attribution {
     font-size: 11px;
     text-align: center;
