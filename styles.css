@@ -22,6 +22,15 @@ body {
     font-size: 18px;
 }
 
+button {
+    font-family: 'Epilogue';
+    background-color: var(--Almost-White);
+    border: none;
+    cursor: pointer;
+    color: var(--Medium-Gray);
+    font-size: 1em;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -33,10 +42,76 @@ header .hamburger-menu {
     display: none;
 }
 
-/* header nav{
-    display: none;
+header nav{
+    /* display: none; */
+    color: var(--Medium-Gray);
+}
 
-} */
+header nav .back {
+    background-color: var(--Medium-Gray);
+    opacity: 0.75;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 780px;
+}
+
+header nav .front {
+    background-color: var(--Almost-White);
+    width: 240px;
+    position: absolute;
+    right: 0;
+    height: 780px;
+    padding: 20px;
+}
+
+header nav .close-img-container {
+    text-align: right;
+    cursor: pointer;
+}
+
+header nav li {
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 26px;
+}
+
+header nav .company-ul {
+    margin-left: 28px;
+    display: none;
+}
+
+header nav .features-ul {
+    margin-left: 28px;
+    display: none;
+}
+
+header nav .submenu-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+    width: 110px;
+    height: 26px;
+}
+
+header nav .btns-container {
+    position: absolute;
+    bottom: 124px;
+}
+
+header nav .login-btn {
+    display: block;
+    margin: 0 auto 16px;
+}
+
+header nav .register-btn {
+    border: 1px solid var(--Almost-Black);
+    width: 195px;
+    height: 42px;
+    border-radius: 14px;
+}
 
 .attribution {
     font-size: 11px;

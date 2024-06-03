@@ -15,12 +15,13 @@
     <nav>
       <div class="back">
         <div class="front">
-          <img id="close-btn" src="./images/icon-close-menu.svg" alt="">
+          <div class="close-img-container">
+            <img id="close-btn" src="./images/icon-close-menu.svg" alt="">
+          </div>
           <ul>
             <li>
-              <button>Features</button> 
-              <img src="./images/icon-arrow-down.svg" alt="arrow down">
-              <ul>
+              <button class="submenu-btn">Features <img src="./images/icon-arrow-down.svg" alt="arrow down"></button> 
+              <ul class="features-ul">
                 <li>
                   <img src="./images/icon-todo.svg" alt="todo icon">
                   <span>Todo List</span>
@@ -40,9 +41,8 @@
               </ul>
             </li>
             <li>
-              <button>Company </button>
-              <img src="./images/icon-arrow-down.svg" alt="arrow down">
-              <ul>
+              <button class="submenu-btn">Company <img src="./images/icon-arrow-down.svg" alt="arrow down"></button>
+              <ul class="company-ul">
                 <li>History</li>
                 <li>Our team</li>
                 <li>Blog</li>
@@ -51,8 +51,10 @@
             <li>Careers</li>
             <li>About</li>
           </ul>
-          <button>Login</button>
-          <button>Register</button>
+          <div class="btns-container">
+            <button class="login-btn">Login</button>
+            <button class="register-btn">Register</button>
+          </div>
         </div>
       </div>
     </nav>
@@ -78,9 +80,9 @@
     </picture>
   </main>
 
-  <div class="attribution">
+ <!--  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/FlorAccastelli" target="_blank">Florencia Accastelli</a>.
-  </div>
+  </div> -->
 </body>
 </html>
