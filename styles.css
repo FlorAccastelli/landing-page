@@ -113,11 +113,47 @@ header nav .register-btn {
     border-radius: 14px;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
+ main {
+    display: flex;
+    flex-direction: column-reverse;
+ }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
+ main .hero-image {
+    width: 100%;
+    margin-bottom: 48px;
+ }
+
+ main h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 16px;
+ }
+
+ main p {
+    text-align: center;
+    line-height: 26px;
+    color: var(--Medium-Gray);
+    margin: 0 16px 24px;
+    font-size: 0.89em;
+ }
+
+ main button {
+    background-color: var(--Almost-Black);
+    color: var(--Almost-White);
+    width: 136px;
+    height: 48px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 52px;
+ }
+
+ main button:hover{
+    background-color: var(--Almost-White);
+    color: var(--Almost-Black);
+    border: 1px solid var(--Almost-Black);
+ }
+
+/*  main .logos-container {
+
+ } */
