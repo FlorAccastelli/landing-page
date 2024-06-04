@@ -39,11 +39,12 @@ header {
 }
 
 header .hamburger-menu {
-    display: none;
+    /* display: none; */
+    cursor: pointer;
 }
 
 header nav{
-    /* display: none; */
+    display: none;
     color: var(--Medium-Gray);
 }
 
@@ -62,6 +63,7 @@ header nav .front {
     width: 240px;
     position: absolute;
     right: 0;
+    top: 0;
     height: 780px;
     padding: 20px;
 }
@@ -154,6 +156,27 @@ header nav .register-btn {
     border: 1px solid var(--Almost-Black);
  }
 
-/*  main .logos-container {
+ main .logos-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin-bottom: 96px;
+ }
 
- } */
+ main .databiz {
+    width: 81px;
+ }
+
+ main .audio {
+    width: 52px;
+ }
+
+ main .meet {
+    width: 64px;
+ }
+
+ main .maker {
+    width: 59px;
+ }
+

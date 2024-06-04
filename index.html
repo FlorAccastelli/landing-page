@@ -10,14 +10,14 @@
 <body>
   <header>
     <img src="./images/logo.svg" alt="logo">
-    <img class="hamburger-menu" src="./images/icon-menu.svg" alt="menu">
-    <nav>
-      <div class="back">
-        <div class="front">
-          <div class="close-img-container">
-            <img id="close-btn" src="./images/icon-close-menu.svg" alt="">
-          </div>
-          <ul>
+    <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu">
+    <nav id="navbar">
+      <div class="back"></div>
+      <div class="front">
+        <div class="close-img-container">
+          <img id="close-btn" src="./images/icon-close-menu.svg" alt="icon-close">
+        </div>
+        <ul>
             <li>
               <button class="submenu-btn">Features <img src="./images/icon-arrow-down.svg" alt="arrow down"></button> 
               <ul class="features-ul">
@@ -49,11 +49,10 @@
             </li>
             <li>Careers</li>
             <li>About</li>
-          </ul>
-          <div class="btns-container">
-            <button class="login-btn">Login</button>
-            <button class="register-btn">Register</button>
-          </div>
+        </ul>
+        <div class="btns-container">
+           <button class="login-btn">Login</button>
+          <button class="register-btn">Register</button>
         </div>
       </div>
     </nav>
@@ -66,10 +65,10 @@
         create team rituals, and watch productivity soar.</p>
       <button>Learn more</button>
       <div class="logos-container">
-        <img src="./images/client-databiz.svg" alt="databiz logo">
-        <img src="./images/client-audiophile.svg" alt="audiophile logo">
-        <img src="./images/client-meet.svg" alt="meet logo">
-        <img src="./images/client-maker.svg" alt="maker logo">
+        <img class="databiz" src="./images/client-databiz.svg" alt="databiz logo">
+        <img class="audio" src="./images/client-audiophile.svg" alt="audiophile logo">
+        <img class="meet" src="./images/client-meet.svg" alt="meet logo">
+        <img class="maker" src="./images/client-maker.svg" alt="maker logo">
       </div>
     </section>
     <picture>
@@ -78,5 +77,6 @@
       <img class="hero-image" src="./images/image-hero-mobile.png" alt="hero image">
     </picture>
   </main>
+  <script src="./main.js"></script>
 </body>
 </html>
