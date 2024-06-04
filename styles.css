@@ -180,3 +180,38 @@ header nav .register-btn {
     width: 59px;
  }
 
+ @media (min-width: 768px) {
+    header .hamburger-menu {
+        display: none;
+    }
+    header nav {
+        display: block;
+        width: 100%;
+        height: 30px;
+    }
+    header nav .back{
+        display: none;
+    }
+    header nav .front{
+        position: static;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    header nav .close-img-container {
+        display: none;
+    }
+    header nav ul {
+        display: flex;
+        height: 35px;
+    }
+    header nav .btns-container {
+        display: flex;
+        position: static;
+        width: 182px;
+    }
+    main{
+        flex-direction: row;
+    }
+ }
+
