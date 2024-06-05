@@ -228,6 +228,44 @@ header nav .register-btn {
         position: static;
         width: 182px;
     }
+    header nav .features-ul{
+        background-color: var(--Almost-White);
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        width: 153px;
+        height: 160px;
+        position: absolute;
+        padding: 18px 24px;
+        font-size: 0.875em;
+        display: none;
+        top: 35px;
+        left: -70px;
+    }
+    header nav .company-ul{
+        background-color: var(--Almost-White);
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        width: 153px;
+        height: 160px;
+        position: absolute;
+        padding: 18px 24px;
+        font-size: 0.875em;
+        display: none;
+        top: 35px;
+        left: -25px;
+    }
+    header nav .features-ul li{
+        margin-bottom: 16px;
+    }
+    header nav .company-ul li{
+        margin-bottom: 16px;
+    }
+    header nav .company-ul-container{
+        position: relative;
+    }
+    header nav .features-ul-container{
+        position: relative;
+    }
     header nav .login-btn{
         margin: 0;
     }
