@@ -239,7 +239,7 @@ header nav .register-btn {
         font-size: 0.875em;
         display: none;
         top: 35px;
-        left: -70px;
+        left: -80px;
     }
     header nav .company-ul{
         background-color: var(--Almost-White);
@@ -252,7 +252,13 @@ header nav .register-btn {
         font-size: 0.875em;
         display: none;
         top: 35px;
-        left: -25px;
+        left: -30px;
+    }
+    header nav #company-btn{
+        width: 100px;
+    }
+    header nav #features-btn{
+        width: 100px;
     }
     header nav .features-ul li{
         margin-bottom: 16px;
