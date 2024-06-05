@@ -11,7 +11,12 @@ hamburgerMenu.addEventListener('click', () => {
 })
 
 closeBtn.addEventListener('click', () => {
-    navbar.style.display = 'none';
+    const screenSize = window.innerWidth;
+    if(screenSize >= 768) {
+        navbar.style.display = 'block';
+    } else {
+        navbar.style.display = 'none';
+    }
 })
 
 featuresBtn.addEventListener('click', () => {
